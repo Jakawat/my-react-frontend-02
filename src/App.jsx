@@ -81,7 +81,7 @@ function App() {
 
       <table border="1" width="100%" style={{ borderCollapse: "collapse" }}>
         <thead>
-          <tr style={{ background: "#f0f0f0" }}>
+          <tr style={{ background: "#f0f0f0", color: "black" }}>
             <th>Name</th><th>Category</th><th>Price</th><th>Status</th><th>Actions</th>
           </tr>
         </thead>
