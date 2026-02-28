@@ -7,7 +7,7 @@ export function UserProvider({ children }) {
     name: '',
     email: ''
   };
-
+//test
   const API_URL = import.meta.env.VITE_API_URL;
   const [user, setUser] = useState(initialUser);
 
@@ -28,6 +28,7 @@ export function UserProvider({ children }) {
       });
 
       console.log("Login response status:", result.status);
+
 
       if (result.status !== 200) {
         console.log("Login failed with status:", result.status);
